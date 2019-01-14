@@ -21,6 +21,18 @@ Then please ```php artisan serve``` to run the server locally.
 Run ```npm install``` then ```npm run watch```
 to install necessary dependencies and build front-end components.
 
+#### Set up database ####
+
+Please config the .env file to connect to the sqlite database.
+
+DB_CONNECTION=sqlite
+
+DB_HOST=127.0.0.1
+
+DB_PORT=3306
+
+DB_DATABASE=your path to database.sqlite file
+
 
 If nothing wrong happens, you should be able to visit this application via http://localhost:8000.
 
